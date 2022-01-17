@@ -1,46 +1,66 @@
-# Getting Started with Create React App
+<h1 align="center">Catálogo de produtos - Exemplo Redux</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center"><b>Status: Em construção 🚧</b></p>
 
-## Available Scripts
+## <a id="sobre"></a> ℹ Sobre
 
-In the project directory, you can run:
+🚀 A aplicação consiste em um catálogo de produtos utilizando o Redux como gerenciador de estado
 
-### `npm start`
+## <a id="conteudo"></a> Tabela de conteúdos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Sobre](#sobre)
+- [Tabela de Conteudo](#conteudo)
+- [Tecnologias](#tecnologias)
+- [Tarefas](#tarefas)
+- [Demonstração](#demonstracao)
+- [Documentação](#documentacao)
+- [Como Executar](#executar)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## <a id="tecnologias"></a> 🛠 Principais tecnologias
 
-### `npm test`
+As seguintes tecnologias foram utilizadas na construção deste projeto:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [React](https://pt-br.reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Redux](https://redux.js.org/)
+- [JSON-Server](https://www.npmjs.com/package/json-server)
 
-### `npm run build`
+## <a id="tarefas"></a> 🔝 Tarefas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- []Catálogo de produtos
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 <a id="executar"></a> Como executar o projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Pré-requisitos
 
-### `npm run eject`
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 🧭 Rodando a aplicação, documentação e testes
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+# Clone este repositório
+$ git clone https://github.com/brunaschneiders/catalog-redux.git
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd catalog-redux
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Instale as dependências
+$ yarn install
 
-## Learn More
+# Execute a API fake
+$ yarn server
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Execute a aplicação em modo de desenvolvimento
+$ yarn start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+```
+
+## Autor
+
+👤 **Bruna Schneiders**
+
+- Github: [@brunaschneiders](https://github.com/brunaschneiders)
+- LinkedIn: [@bruna-schneiders](https://linkedin.com/in/bruna-schneiders)
